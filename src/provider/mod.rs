@@ -12,6 +12,8 @@ pub mod vrcdb;
 pub mod vrcds;
 #[cfg(feature = "vrcwb")]
 pub mod vrcwb;
+#[cfg(feature = "paw")]
+pub mod paw;
 
 pub mod prelude;
 
